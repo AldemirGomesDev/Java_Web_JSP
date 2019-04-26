@@ -1,0 +1,150 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height:30px;
+}
+
+#page-wrapper {
+    
+    background:#F3F3F3;
+   
+}
+#page-inner {
+    width:100%;
+    margin:10px 20px 10px 0px;
+    background-color:#fff!important;
+  
+}
+.pad-top {
+    padding-top:5px;
+}
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+
+
+.sidebar-collapse > .nav > li > a {
+	padding:15px 10px;
+    color: #214761;
+font-weight: 900;
+font-size: 16px;
+
+}
+.sidebar-collapse > .nav > li {
+	border-bottom:1px solid #e1e1e1;
+}
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+	
+	background:#fff;
+	outline:0;
+}
+
+.navbar-side {
+	border:none;
+	background-color: #fff;
+	
+}
+.navbar-inverse {
+
+background-color: #214761;
+border-color: #ffffff;
+min-height: 80px;
+}
+
+
+.nav > li > a > i {
+    margin-right:10px;
+}
+
+.active-link {
+    background-color:#ffffff;
+}
+    
+
+.div-square {
+    padding:5px;
+    border:3px double #53868b;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+    position:relative;
+    top:50px;
+    left:70px;
+
+}
+
+
+.panel-default{
+	
+	position:relative;
+	top:170px;
+	left:89px;
+	
+}
+
+
+
+
+
+
+.button{
+	
+	position:absolute;
+	top:100px;
+	
+}
+
+.div-square> a,.div-square> a:hover {
+    color:#53868b;
+     text-decoration:none;
+}
+
+
+
+
+
+
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+.footer {
+    background-color:#fff;
+    width:100%;
+    color:#fff;
+  
+}
+
+
+
+
+    .footer > a, .footer>a:hover {
+       
+        color:#fff;
+    }
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+ 
+ @media(min-width:768px) {
+     #page-wrapper{
+               margin: 0 0 0 5px;
+        padding: 10px 30px;
+        min-height:200px;
+		
+    }
+	
+	
+    .navbar-side {
+        z-index: 1;
+        position: absolute;
+        width: 260px;
+       
+    }
+
+ 
+}
+
+
